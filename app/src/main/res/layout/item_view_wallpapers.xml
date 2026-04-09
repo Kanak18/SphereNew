@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="com.wallpaper4k.live.hd.backgrounds.utils.Global" />
+
+        <variable
+            name="is_fav"
+            type="Boolean" />
+
+        <variable
+            name="model"
+            type="com.wallpaper4k.live.hd.backgrounds.model.SettingData.WallpapersItem" />
+    </data>
+
+
+    <!--    android:outlineSpotShadowColor="@color/black"-->
+    <!--    android:shadowColor="@color/black"-->
+    <!--    android:shadowDx="10"-->
+    <!--    android:shadowDy="10"-->
+    <!--    android:shadowRadius="3"-->
+    <!--    app:cardElevation="5dp"-->
+    <!--    tools:targetApi="p"-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_wall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/transparent"
+        app:cardCornerRadius="30dp">
+
+        <RelativeLayout
+            android:id="@+id/root_lout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:background="@color/transparent"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/img_wall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:image_url="@{model.wallpaperType==0?model.content:model.thumbnail}"
+
+                tools:src="@drawable/sample_image_2" />
+
+            <TextView
+                style="@style/TextViewLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_round_corner_500"
+                android:backgroundTint="@color/black_40"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="5dp"
+                android:text="@string/live"
+                android:textSize="@dimen/ts_15"
+                android:visibility="@{model.wallpaperType==0?View.GONE:View.VISIBLE}"
+                tools:visibility="visible" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_round_corner_500"
+                    android:backgroundTint="@color/color_theme_blue"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_premium"
+                    android:visibility="@{model.accessType==0?View.VISIBLE:View.GONE}" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_round_corner_500"
+                    android:backgroundTint="@color/white"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_lock"
+                    android:visibility="@{model.accessType==1?View.VISIBLE:View.GONE}"
+                    app:tint="@color/color_text_tertiary" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15dp"
+                android:background="@drawable/bg_round_corner_500"
+                android:backgroundTint="@color/white">
+
+                <ImageView
+                    android:id="@+id/ic_fav_no"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_fav"
+                    android:visibility="@{is_fav?View.GONE:View.VISIBLE}"
+                    app:tint="@color/color_text_tertiary" />
+
+                <ImageView
+                    android:id="@+id/ic_fav_yes"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_fav_yes"
+
+                    android:visibility="@{is_fav?View.VISIBLE:View.GONE}" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</layout>

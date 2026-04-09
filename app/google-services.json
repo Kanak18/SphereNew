@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "730833621805",
+    "firebase_url": "https://dreamchat-9531c.firebaseio.com",
+    "project_id": "dreamchat-9531c",
+    "storage_bucket": "dreamchat-9531c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730833621805:android:d69fbd414a4617736fb9a4",
+        "android_client_info": {
+          "package_name": "com.wallpaper4k.live.hd.backgrounds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsnF1BG1hlv8Z6E3m_cJqhR1uO6IhmjJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
