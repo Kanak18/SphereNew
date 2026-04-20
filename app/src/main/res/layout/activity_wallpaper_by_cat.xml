@@ -7,7 +7,7 @@
 
         <variable
             name="model"
-            type="com.wallpaper4k.live.hd.backgrounds.viewmodel.WallpaperByCatViewModel" />
+            type="com.wallpaper4k.ultrahd.live.backgrounds.viewmodel.WallpaperByCatViewModel" />
     </data>
 
     <LinearLayout
@@ -138,7 +138,7 @@
 
         </RelativeLayout>
 
-        <com.wallpaper4k.live.hd.backgrounds.utils.ads.MyBannerAdsView
+        <com.wallpaper4k.ultrahd.live.backgrounds.utils.ads.MyBannerAdsView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"

@@ -6,15 +6,15 @@ plugins {
 }
 
 android {
-    namespace = "com.wallpaper4k.live.hd.backgrounds"
+    namespace = "com.wallpaper4k.ultrahd.live.backgrounds"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.wallpaper4k.live.hd.backgrounds"
+        applicationId = "com.wallpaper4k.ultrahd.live.backgrounds"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.2"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
         setProperty("archivesBaseName", "Sphere2")
@@ -71,7 +71,7 @@ dependencies {
 
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation("jp.wasabeef:glide-transformations:4.3.0")
-    implementation("com.google.android.gms:play-services-ads:24.0.0")
+    implementation("com.google.android.gms:play-services-ads:25.1.0")
 
 
     //billing in app purchase

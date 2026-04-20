@@ -7,7 +7,7 @@
 
         <variable
             name="model"
-            type="com.wallpaper4k.live.hd.backgrounds.viewmodel.FavouriteViewModel" />
+            type="com.wallpaper4k.ultrahd.live.backgrounds.viewmodel.FavouriteViewModel" />
     </data>
 
     <RelativeLayout

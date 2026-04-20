@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appname "Sphere">]>
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appname "4K wallpapers">]>
 
 
 <resources>
-    <string name="admob_app_id" translatable="false">ca-app-pub-1437153974595170~9914070110</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-7449564617644870~2016245704</string>
 
 
-    <string name="app_name" translatable="false">&appname;</string>
+    <string name="app_name" translatable="false">Live wallpapers</string>
     <string name="pro" translatable="false">PRO</string>
     <string name="pro__" translatable="false">PRO?</string>
 

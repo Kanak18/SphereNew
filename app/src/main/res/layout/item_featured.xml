@@ -7,7 +7,7 @@
 
         <variable
             name="model"
-            type="com.wallpaper4k.live.hd.backgrounds.model.SettingData.WallpapersItem" />
+            type="com.wallpaper4k.ultrahd.live.backgrounds.model.SettingData.WallpapersItem" />
     </data>
 
 

@@ -10,9 +10,9 @@
 
 -[build.gradle.kts](app/build.gradle.kts)
 -[build.gradle.kts](build.gradle.kts)
--[MainActivity.kt](app/src/main/java/com/wallpaper4k/live/activity/MainActivity.kt)
--[SplashActivity.kt](app/src/main/java/com/wallpaper4k/live/activity/SplashActivity.kt)
--[MyPlayStoreBilling.java](app/src/main/java/com/wallpaper4k/live/utils/MyPlayStoreBilling.java)
+-[MainActivity.kt](app/src/main/java/com/wallpaper4k/ultrahd/activity/MainActivity.kt)
+-[SplashActivity.kt](app/src/main/java/com/wallpaper4k/ultrahd/activity/SplashActivity.kt)
+-[MyPlayStoreBilling.java](app/src/main/java/com/wallpaper4k/ultrahd/utils/MyPlayStoreBilling.java)
 
 #### Added Files
 

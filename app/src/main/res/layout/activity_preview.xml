@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/color_theme_blue"
-        tools:context="com.wallpaper4k.live.hd.backgrounds.activity.PreviewActivity">
+        tools:context="com.wallpaper4k.ultrahd.live.backgrounds.activity.PreviewActivity">
 
 
         <ImageView

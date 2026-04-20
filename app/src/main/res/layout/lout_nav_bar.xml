@@ -9,7 +9,7 @@
 
         <variable
             name="model"
-            type="com.wallpaper4k.live.hd.backgrounds.viewmodel.MainViewModel" />
+            type="com.wallpaper4k.ultrahd.live.backgrounds.viewmodel.MainViewModel" />
     </data>
 
     <RelativeLayout
@@ -48,7 +48,7 @@
 
             </ImageView>
 
-            <LinearLayout
+            <!--<LinearLayout
                 android:id="@+id/lout_purchase"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
                 </LinearLayout>
 
 
-            </LinearLayout>
+            </LinearLayout>-->
 
             <View
                 android:layout_width="match_parent"
@@ -293,7 +293,7 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
+                        <!--<LinearLayout
                             android:id="@+id/btn_restore"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -334,7 +334,7 @@
                                 android:visibility="gone"
                                 tools:visibility="visible" />
 
-                        </LinearLayout>
+                        </LinearLayout>-->
 
 
                     </LinearLayout>

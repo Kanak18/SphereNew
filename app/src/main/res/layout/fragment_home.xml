@@ -7,7 +7,7 @@
 
         <variable
             name="model"
-            type="com.wallpaper4k.live.hd.backgrounds.viewmodel.HomeViewModel" />
+            type="com.wallpaper4k.ultrahd.live.backgrounds.viewmodel.HomeViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
